@@ -11,7 +11,7 @@ driver=webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://widgets.bsdex.de/de/market-detail?market=btc-eur,xrp-eur,ltc-eur,eth-eur,bch-eur,uni-eur,link-eur")
 time.sleep(2)
 driver.maximize_window()
-
+#kailash
 #BTC UI testing-24H,1W,1M,YTD
 driver.find_element(By.XPATH,"//div[text()='BTC']").click()
 time.sleep(2)
